@@ -1,0 +1,49 @@
+.text14 {
+  font-size: 14px;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.text16 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.text18 {
+  font-size: 1.125rem;
+  line-height: 2rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.text20 {
+  font-size: 1.25rem;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.text28 {
+  font-size: 1.75rem;
+  line-height: 2.625rem;
+  font-weight: 400;
+}
+
+.text40 {
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  font-weight: 500;
+}
+
+.text64 {
+  font-size: 4rem;
+  line-height: 96px;
+}
+
+.text86 {
+  font-size: 5.375rem;
+  line-height: 6.25rem;
+  font-weight: 500;
+}

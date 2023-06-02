@@ -1,0 +1,36 @@
+.dikonde {
+  margin-bottom: 8rem;
+}
+
+.dikonde-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.dikonde-textos {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dikonde-textos p {
+  max-width: 756px;
+}
+
+.lista-marcas {
+  display: flex;
+  gap: 2rem;
+  margin: 3.75rem auto;
+  text-align: center;
+}
+
+.lista-marcas h1 {
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 12px;
+}

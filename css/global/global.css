@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: "Poppins";
+  background-color: var(--w);
+  text-transform: capitalize;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+li {
+  list-style: none;
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+button {
+  cursor: pointer;
+  display: block;
+  border: none;
+  font-family: "Poppins";
+  background: none;
+}
+
+input {
+  border: none;
+  font-family: "Poppins";
+}
+
+.botao {
+  display: block;
+  width: fit-content;
+  font-family: "Poppins";
+}

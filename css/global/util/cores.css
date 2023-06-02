@@ -1,0 +1,20 @@
+:root {
+  --a: #3461ff;
+  --p: #000000;
+  --w: #ffffff;
+  --p60: #00000099;
+}
+
+.b {
+  color: var(--a);
+}
+.p {
+  color: var(--p);
+}
+.w {
+  color: var(--w);
+}
+
+.p60 {
+  color: var(--p60);
+}

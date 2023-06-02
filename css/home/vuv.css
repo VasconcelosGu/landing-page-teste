@@ -1,0 +1,46 @@
+#vuv {
+  background-color: var(--w);
+  margin-bottom: 274px;
+}
+
+.vuv-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.vuv-textos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.vuv-textos > p {
+  max-width: 500px;
+}
+
+.icon-card {
+  background-color: var(--a);
+  width: 102px;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+}
+
+.vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 52px 2rem;
+}
+
+.vantagens li h1 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.vantagens li p {
+  max-width: 286px;
+}

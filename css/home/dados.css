@@ -1,0 +1,32 @@
+.dados {
+  background-color: var(--w);
+  margin-top: 126px;
+  margin-bottom: 258px;
+}
+
+.dados-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.numeros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem 138px;
+}
+
+.numeros p {
+  max-width: 15ch;
+}
+
+.dados-textos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dados-textos > p {
+  max-width: 55ch;
+}

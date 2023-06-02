@@ -1,0 +1,19 @@
+.spetest {
+  background-color: var(--a);
+}
+
+.spetest-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 76px 0;
+}
+
+.spetest-container h1 {
+  max-width: 392px;
+}
+
+.spetest-container p {
+  max-width: 604px;
+}

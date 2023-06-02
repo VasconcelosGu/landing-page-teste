@@ -1,0 +1,45 @@
+.parceiros {
+  margin-top: 250px;
+  background-color: #fafafa;
+  padding: 5rem 0;
+  margin-bottom: 258px;
+}
+
+.parceiros-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+
+.parceiros-textos {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.parceiros-textos h1 {
+  max-width: 12ch;
+}
+
+.parceiros-textos > p {
+  color: #252525;
+  max-width: 40ch;
+}
+
+.parceiros-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parceiros-logos img {
+  filter: saturate(0);
+  opacity: (0.1);
+  transition: all ease-in-out 0.2s;
+}
+
+.parceiros-logos img:hover {
+  filter: saturate(1);
+  opacity: (1);
+}

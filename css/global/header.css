@@ -1,0 +1,111 @@
+.header {
+  background-color: var(--w);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.header-nav .botao {
+  margin-left: auto;
+  padding: 1rem 1.5rem;
+  background-color: var(--a);
+  border-radius: 70px;
+  transition: all ease-in-out 0.3s;
+}
+
+.header-nav .botao:hover {
+  background-color: #1b46e0;
+}
+
+.menu-button {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .header-container {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  .menu-button {
+    display: block;
+    background: none;
+    color: var(--p);
+    margin-right: 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .header-nav {
+    z-index: 999;
+    flex-direction: column;
+    gap: 2rem;
+    position: fixed;
+    right: 30px;
+    top: 76px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    padding: 1.5rem;
+    width: 343px;
+    border-radius: 0.5rem;
+    align-items: flex-start;
+    transition: all ease-in-out 0.2s;
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  .header-nav.ativo {
+    animation: fadeLeft ease-in-out 0.2s forwards;
+  }
+
+  .header-menu {
+    flex-direction: column;
+    gap: 4rem;
+    margin-left: 0;
+    align-items: flex-start;
+    margin-left: 0;
+  }
+
+  .menu-button > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .header-menu li {
+    text-align: left;
+  }
+
+  .header-nav .botao {
+    margin-left: 0;
+  }
+}
+
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: all;
+  }
+}
